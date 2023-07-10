@@ -1,0 +1,13 @@
+{
+    "name": "(gdb) Launch",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": " C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\Tools\VsDevCmd.bat ",
+    "args": ["%comspec% /k "],
+    "stopAtEntry": false,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "externalConsole": false,
+    "MIMode": "gdb",
+    "miDebuggerPath": "/path/to/gdb"
+}
